@@ -30,7 +30,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 pip install -r requirements.txt
 ```
 <br><br>
-## Preparing data <br><br>
+## Preparing data
 Make sure that you're at the Main Folder
 ```
 ./sh/preprocess.sh
@@ -66,13 +66,13 @@ Models used:
 
 <br>
 ## Predict
+
 ```
 ./sh/predict_all.sh
 ```
-<br>
+
 ## Make Submissions
 I've averaged all the predictions of all folds by model then I averaged the predictions of the 5 models.
-
 
 <br>
 ## Knoledgments

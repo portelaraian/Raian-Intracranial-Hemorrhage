@@ -1,6 +1,9 @@
 echo "Seresnext-50"
 predict_seresnext50.sh
 
+echo "Seresnext-50 i512"
+predict_seresnext_50_i512.sh
+
 echo "VGG19"
 predict_vgg19.sh
 

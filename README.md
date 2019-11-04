@@ -54,7 +54,8 @@ We used three types of windows to focus and assigned them to each of the chennel
 #### Train all models
 Models used:
 
-- Seresnext50-32-4d
+- Seresnext50-32-4d (224, 224)
+- Seresnext50-32-4d (512, 512)
 - VGG19
 - EfficientNet-b0
 - EfficientNet-b2
@@ -73,7 +74,7 @@ Models used:
 ```
 
 ## Make Submissions
-I've averaged all the predictions of all folds by model then I averaged the predictions of the 5 models.
+I've averaged all the predictions of all folds by model then I averaged the predictions of those models.
 
 <br>
 ## Knoledgments
